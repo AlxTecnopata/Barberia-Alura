@@ -1,8 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
-  /* position: relative;
-  padding-bottom: 314px; */
   display: flex;
   flex-direction: column;
 }
@@ -151,7 +149,6 @@ footer{
   background: url(imagenes/bg.jpg);
 /*  background-color: #CCCCCC;*/
   padding: 4px 0;
-  /* width: 100%; */
   margin-top: auto;
 }
 
