@@ -1,10 +1,10 @@
 body{
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
-  /* position: relative;
-  padding-bottom: 314px; */
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 header{
@@ -151,8 +151,7 @@ footer{
   background: url(imagenes/bg.jpg);
 /*  background-color: #CCCCCC;*/
   padding: 4px 0;
-  /* width: 100%; */
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 
 .copy{
